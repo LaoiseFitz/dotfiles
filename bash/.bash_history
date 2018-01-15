@@ -979,3 +979,146 @@ la
 clear
 l
 la
+ls
+ls Music/
+rm Music/
+rm -rf Music/
+ls Public/
+rm -rf Public/
+ls
+ls Videos/
+ls Pictures/
+ls Documents/
+ls Templates/
+rm -rf Templates/
+ls
+clear
+ls
+cd bin
+ls
+..
+menu_test 
+rm -rf bin
+ls
+mv code Code
+ls
+clear
+la
+cd .config/
+ls
+cd neofetch/
+ls
+..
+cd sublime-text-3/
+ls
+..
+npm --help
+npm help
+npm list
+cd ~/Code/
+npm list
+clear
+which stow
+stow
+sudo apt install stow
+..
+mkdir dotfiles
+ls
+la
+mkdir dotfiles/bash
+mv .bash_aliases dotfiles/bash/
+mv .bashrc dotfiles/bash/
+cd dotfiles/bash/
+..
+stow bash
+..
+mv .bash_history dotfiles/bash/
+mv .bash_logout dotfiles/bash/
+cd dotfiles
+stow bash
+..
+mv .gitconfig dotfiles/git/
+mkdir dotfiles/git && mv .gitconfig dotfiles/git/
+cd dotfiles/
+stow git
+git init
+ls
+rm -rf git
+la
+rm rf .git
+rm -rf .git
+la
+git config --global user.name "Laoise Fitzpatrick"
+cd
+ls
+la
+git config
+touch .gitconfig
+echo -n > .gitconfig
+sudo subl ~/.gitconfig
+la
+clear
+la
+chmod +777 .gitconfig 
+rm .gitconfig 
+la
+sudo subl ~/.gitconfig
+la
+sudo subl ~/.gitconfig
+git config
+mkdir dotfiles/git && mv .gitconfig dotfiles/git/
+cd dotfiles/
+stow git
+;s
+ls
+..
+la
+clear
+cd dotfiles/
+ls
+echo "# dotfiles" >> README.md
+git init
+git add *
+git commit -m "dotfiles"
+git remote add origin https://github.com/LaoiseFitz/dotfiles.git
+git push -u origin master
+cd
+clear
+la
+cd .config
+ls
+la
+mpn uninstall -g learnyouhtml
+npm uninstall -g learnyouhtml
+npm uninstall -g elementary-electron
+npm uninstall -g expressworks 
+npm uninstall -g Git-it/
+npm uninstall -g learnyoureact 
+npm uninstall -g thinking-in-react 
+la
+rm -rf elementary-electron/ Git-it/ i3 learnyouhtml/ learnyoureact/ thinking-in-react/
+sudo apt remove neofetch
+la
+rm -rf neofetch/
+la
+evolution
+libreoffice
+sudo apt remove libreoffice
+sudo apt-get remove --purge libreoffice*
+
+sudo apt-get remove --purge libreoffice*
+sudo apt-get clean
+sudo apt-get autoremove
+sudo apt-get purge gnome-games-common gbrainy unity-webapps-common && sudo apt-get autoremove
+sudo apt-get purge unity-webapps-common
+sudo apt-get purge thunderbird
+sudo apt-get remove account-plugin-aim account-plugin-facebook account-plugin-flickr account-plugin-jabber account-plugin-salut account-plugin-twitter account-plugin-windows-live account-plugin-yahoo aisleriot brltty colord deja-dup deja-dup-backend-gvfs duplicity empathy empathy-common evolution-data-server-online-accounts example-content firefox gnome-accessibility-themes gnome-contacts gnome-mahjongg gnome-mines gnome-orca gnome-screensaver gnome-sudoku gnome-video-effects gnomine landscape-common libreoffice-avmedia-backend-gstreamer libreoffice-base-core libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw libreoffice-gnome libreoffice-gtk libreoffice-impress libreoffice-math libreoffice-ogltrans libreoffice-pdfimport libreoffice-presentation-minimizer libreoffice-style-galaxy libreoffice-style-human libreoffice-writer libsane libsane-common mcp-account-manager-uoa python3-uno rhythmbox rhythmbox-plugins rhythmbox-plugin-zeitgeist sane-utils shotwell shotwell-common telepathy-gabble telepathy-haze telepathy-idle telepathy-indicator telepathy-logger telepathy-mission-control-5 telepathy-salut thunderbird thunderbird-gnome-support totem totem-common totem-plugins unity-scope-audacious unity-scope-chromiumbookmarks unity-scope-clementine unity-scope-colourlovers unity-scope-devhelp unity-scope-firefoxbookmarks unity-scope-gdrive unity-scope-gmusicbrowser unity-scope-gourmet unity-scope-manpages unity-scope-musicstores unity-scope-musique unity-scope-openclipart unity-scope-texdoc unity-scope-tomboy unity-scope-video-remote unity-scope-virtualbox unity-scope-yelp unity-scope-zotero
+c;ear
+clear
+zsh --version
+sudo apt-get install zsh
+sudo apt-get install zsh-doc
+zsh --version
+chsh -s $(which zsh)
+echo $SHELL
+pactl -h
