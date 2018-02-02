@@ -126,3 +126,5 @@ eval `dircolors $HOME/.dir_colors`echo ""
 # echo "Microsoft(R) Windows 95"
 # echo "   (C)Copyright Microsoft Corp 1981-1996."
 # echo ""
+#
+myfetch
