@@ -1,5 +1,5 @@
-#start chromium
-alias chromium='/usr/bin/chromium-browser --disable-gpu'
+### Fern's Aliases ###
+### Last updated: 06/01/2021 ###
 
 # directory navigation aliases
 alias ..='cd ..'

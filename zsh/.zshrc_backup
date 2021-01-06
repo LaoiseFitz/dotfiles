@@ -1,6 +1,3 @@
-### Fern's .zshrc ###
-### Last updated: 06/01/2021 ###
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -131,3 +128,5 @@ eval `dircolors $HOME/.dir_colors`echo ""
 # echo ""
 
 /home/laoise/bin/myfetch
+
+# (cat ~/.cache/wal/sequences &)
